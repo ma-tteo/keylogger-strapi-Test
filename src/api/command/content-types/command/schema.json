@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "commands",
+  "info": {
+    "singularName": "command",
+    "pluralName": "commands",
+    "displayName": "Command"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "command_string": {
+      "type": "text"
+    },
+    "executed": {
+      "type": "boolean"
+    }
+  }
+}
